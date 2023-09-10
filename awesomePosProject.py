@@ -3,7 +3,7 @@ import mediapipe as mp
 import time
 import PoseModule
 
-# stoped at 4:09:00
+# stoped at  4:09:00
 
 cap = cv2.VideoCapture(0)
 detector = PoseModule.poseDetector()
