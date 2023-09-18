@@ -3,9 +3,9 @@ import mediapipe as mp
 import time
 import PoseModule
 
-# stoped at  4:09:00
+# stoped at  4:09:00 https://www.youtube.com/watch?v=01sAkU_NvOY
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("AiTrainer/❌ Stop Doing This Bicep Curl Mistake⁉️🙅🏻_♂️.mp4")
 detector = PoseModule.poseDetector()
 pTime = 0
 
